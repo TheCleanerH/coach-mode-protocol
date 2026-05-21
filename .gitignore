@@ -1,0 +1,25 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Logs / transient
+*.log
+
+# Node (if anyone adapts using JS tooling)
+node_modules/
+
+# Python (if anyone adapts in Python)
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets — never commit
+.env
+.env.local
+*.key
+*.pem
+credentials.json
