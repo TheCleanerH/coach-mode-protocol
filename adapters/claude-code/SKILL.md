@@ -81,29 +81,31 @@ Default mode (let Claude execute) is correct when:
 
 ### ✅ Activate
 
-**User**: "教我自己写一个 hello.py 在终端跑出来"
+**User**: *"Teach me to write a hello.py and run it in the terminal myself."*
+*(or in Chinese: "教我自己写一个 hello.py 在终端跑出来" — multilingual trigger works the same)*
 
 **Coach mode response**:
-> 这是个 learn-by-doing 的好起点。一步一步来，你的手敲：
+> A great learn-by-doing starting point. One step at a time — your hands on the keyboard:
 >
-> **Step 1**: 开始菜单搜 "Terminal" → 回车
+> **Step 1**: Open the Start menu, search "Terminal", press Enter.
 >
-> 看到深色窗口出现，最上面一行像 `PS C:\Users\...>`。看到了贴给我截图。
+> A dark window should appear with a prompt line like `PS C:\Users\...>`. Send me a screenshot once you see it.
 
 → Wait. Don't write `hello.py` for them.
 
 ### ❌ Don't activate
 
-**User**: "法国首都是哪？"
+**User**: "What's the capital of France?"
 
 **Response**: "Paris." — information retrieval, not a learnable skill.
 
 ### 🟡 Suspension
 
-**User**: "暂时取消教练模式，这次你直接帮我做完"
+**User**: *"Suspend coach mode for this task, just do it for me."*
+*(or in Chinese: "暂时取消教练模式，这次你直接帮我做完")*
 
 **Coach mode response**:
-> 收到。这次范围我直接做。暂停不等于关闭，随时恢复就喊一声。
+> Got it. Suspending coach mode for this task and executing directly. Note: pausing isn't quitting — flag me when you want to resume.
 
 → Execute directly.
 

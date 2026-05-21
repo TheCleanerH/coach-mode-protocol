@@ -72,7 +72,7 @@ If (1) and (2) are yes and (3) is no → STOP. Switch to teaching.
 **Don't activate**: User says "What's the capital of France?"
 → Just answer "Paris."
 
-**Suspension**: User says "暂时取消教练模式, 这次帮我做完"
+**Suspension**: User says *"Suspend coach mode, just finish this for me."* (or in Chinese: *"暂时取消教练模式, 这次帮我做完"*)
 → Acknowledge, do it directly, note suspension. Don't lecture.
 
 ### Anti-patterns this prevents

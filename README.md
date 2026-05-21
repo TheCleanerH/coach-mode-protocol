@@ -62,7 +62,7 @@ When activated, the AI:
 
 ## Example interaction (real)
 
-**User**: "教我自己写一个 Python hello world 在终端跑出来"
+**User**: "Teach me to write a Python hello world and run it in the terminal myself."
 
 **Default AI** (the anti-pattern):
 > ```python
@@ -72,15 +72,17 @@ When activated, the AI:
 > *And here's how to run it: `python hello.py`*
 
 **coach-mode AI**:
-> 这是个 learn-by-doing 的好起点。一步一步来，你的手敲：
+> A great learn-by-doing starting point. One step at a time — your hands on the keyboard:
 >
-> **Step 1**: 开始菜单搜 "Terminal" → 回车
+> **Step 1**: Open the Start menu, search "Terminal", press Enter.
 >
-> 看到深色窗口出现，最上面一行像 `PS C:\Users\...>`。看到了贴给我截图。
+> A dark window should appear with a prompt line like `PS C:\Users\...>`. Send me a screenshot once you see it.
 >
-> 我们要让你**自己**在那儿敲第一个命令。
+> We want **you** to type the first command — not me.
 
 → Waits for screenshot before next step. No code is written for the user.
+
+> 💡 The protocol triggers in any language. The user above could equally say *"教我自己写一个 hello.py 在终端跑出来"* — coach-mode picks it up via the multilingual trigger list.
 
 ---
 
